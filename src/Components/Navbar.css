@@ -1,0 +1,73 @@
+
+    .navs__content__basic{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 20px;
+        padding: 20px 0;
+        background: white;
+        border-bottom: 1px solid lightgray;   
+    }
+
+    .navs__content__basic > a{
+        text-decoration: none;
+        color: gray;
+        padding-left: 20px;
+        margin-right: 20px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .navs__content__basic > a:hover{
+        color: black!important;
+    }
+    .logo_navs{
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .navs__content__basicDark{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 20px;
+        padding: 20px 0;
+        background: #333;
+        border-bottom: 1px solid lightgray;   
+    }
+    .navs__content__basicDark > a{
+        text-decoration: none;
+        color: gray;
+        padding-left: 20px;
+        margin-right: 20px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .active_navs{
+        color: black!important;
+    }
+    .active_navs > .MuiSvgIcon-root{
+        color: black!important;
+    }
+    .active_navsDark > .MuiSvgIcon-root{
+        color:white!important;
+    }
+    .navs__content__basicDark > a:hover{
+        color: white!important;
+    }
+    .navs__content__basicDark > .icon_links:hover{
+        color: white!important;
+    }
+    .navs__content__basicDark > .icon_links:hover > .MuiSvgIcon-root{
+        color: white!important;
+    }
+    .active_navsDark{
+        color: white!important;
+    }
+    .navs__content__basicDark > .icon_links:hover > .MuiSvgIcon-root{
+        color: white!important;
+    }
+    .right_sideDark > .icon_links:hover > .MuiSvgIcon-root{
+        color: white!important;
+    }
